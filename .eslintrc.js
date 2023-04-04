@@ -36,8 +36,9 @@ module.exports = {
 				ignoredNodes: ["ConditionalExpression"],
 			},
 		],
-		"linebreak-style": ["error", "windows"],
 		// "linebreak-style": ["error", "unix"],
+		//Issue on Windows for "unix": Expected linebreaks to be 'LF' but found 'CRLF'.eslintlinebreak-style
+		"linebreak-style": ["error", "windows"],
 		quotes: ["error", "double"],
 		semi: ["error", "never"],
 		"no-console": ["error"],
