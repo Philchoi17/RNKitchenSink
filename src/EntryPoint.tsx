@@ -1,8 +1,9 @@
-import React from 'react';
-import Navigator from './Navigation/Navigator';
+import React from "react"
+import Navigator from "./Navigation/Navigator"
 
 const App = () => {
-  return <Navigator />;
-};
+    const unused = "unused"
+    return <Navigator />
+}
 
-export default App;
+export default App
